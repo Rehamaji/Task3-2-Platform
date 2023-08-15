@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: xxx-large;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: xx-large;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/*navbar*/
+header ul, .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li, footer li {
+    float: left;
+}
+
+header li a, footer li a {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.hero {
+     background-image: url("../img/school.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.texthero {
+    padding-left: 1023px;
+    padding-top: 111px;
+    color: darkorange;
+    font-family: cursive;
+    FONT-SIZE: 60px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+.text-center{
+    text-align: center;
+}
+.text-center {
+    text-align: center
+}
+
+.input-with-m {
+    margin: 1.5% auto;
+}
+.w100 {
+    width: 100%;
+}
+.box {
+    align-items: center;
+    width: 285px;
+    height: 170px;
+    margin: 10px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+}
+
+section img {
+    height: 170px;
+    width: 260px;
+}
+
+section {
+    height: 700px;
+    align-items: center;
+}
+
+.bg {
+    background-color: rgb(252, 212, 190);
+}
+
+.plan {
+    width: 340px;
+    height: 550px;
+    background-color: rgb(245, 222, 179);
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price {
+    width: 302px;
+    height: 114px;
+    border-radius: 10px;
+    background-color: rgb(253, 233, 140);
+    border: rgb(255, 215, 0) 2px solid;
+}
+
+.list {
+    list-style-position: inside;
+    margin-left: 25%;
+    font-size: larger;
+}
+
+#About {
+    padding: 60px;
+}
+
+input, textarea {
+    width: 500px;
+    height: 35px;
+}
+
+.submit {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(255, 164, 100);
+    border-radius: 10px;
+}
+
+.info {
+    height: 300px;
+    background-color: rgb(252, 208, 185);
+}
+
+#contact {
+    height: 400px;
+}
+
+.footer {
+    background: #333
+}
